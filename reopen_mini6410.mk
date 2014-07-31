@@ -8,3 +8,7 @@ PRODUCT_NAME := reopen_mini6410
 PRODUCT_DEVICE := mini6410
 PRODUCT_BRAND := Reopen
 PRODUCT_MODEL := REOPEN on mini6410
+
+# Install Modules
+PRODUCT_PACKAGES += \
+    helloclib
