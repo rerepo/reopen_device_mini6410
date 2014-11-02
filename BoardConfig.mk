@@ -6,10 +6,16 @@
 # The generic product target doesn't have any hardware-specific pieces.
 #TARGET_NO_BOOTLOADER := true
 #TARGET_NO_KERNEL := true
-TARGET_CPU_ABI := x86
-TARGET_ARCH := x86
-TARGET_ARCH_VARIANT := x86
+#TARGET_CPU_ABI := x86
+#TARGET_ARCH := x86
+#TARGET_ARCH_VARIANT := x86
+TARGET_CPU_ABI := armeabi-v6a
+TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := arm
 TARGET_PRELINK_MODULE := false
+
+# spec gcc version
+TARGET_GCC_VERSION_EXP := 4.5
 
 # The IA emulator (qemu) uses the Goldfish devices
 HAVE_HTC_AUDIO_DRIVER := true
